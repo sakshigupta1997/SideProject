@@ -1,0 +1,23 @@
+package email_application;
+import java.util.*;
+public class email_application {
+public static void main(String args[])
+{
+	email e1=new email();
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter First Name:");
+	e1.setfirst_name(sc.nextLine());
+	System.out.println("Enter Last Name:");
+	e1.setlast_name(sc.nextLine());
+	System.out.println("Enter Department Name:");
+	e1.setdepartment(sc.nextLine());
+	System.out.println("Detail of Employee:");
+	System.out.println("First Name:"+e1.getfirst_name());
+	System.out.println("Last Name:"+e1.getlast_name());
+	System.out.println("Department:"+e1.getdepartment());
+	System.out.println("Your Password is:"+e1.random_password());
+	System.out.println("Your emailid is:"+e1.generate_emailid());
+	System.out.println("Mailbox_capacity:"+e1.getmailbox_capacity()+"mb");
+	
+}
+}
