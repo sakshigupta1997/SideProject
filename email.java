@@ -61,7 +61,7 @@ public String getdepartment()
 }
 public String generate_emailid()
 {
-	emailid=first_name + "." + last_name + "@"+department+".companyname.com";
+	emailid=first_name + "." + last_name + "@"+department+".companyname.org";
 	return this.emailid;
 }
 public void setchange_password(String password)
